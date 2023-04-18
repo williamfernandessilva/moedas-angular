@@ -1,0 +1,31 @@
+<div class="conteiner text-center ">
+<div class="display-6">
+<p>Conversor de moedas</p>
+</div>
+
+
+    <label >Dolar =</label>
+        <input  placeholder="Digite Câmbio" [(ngModel)]="dolar"  type="number">
+        {{dolar}} 
+    
+    <br>
+    <label>Euro =</label>
+        <input  placeholder="Digite Câmbio"  [(ngModel)]="euro"  type="number" >
+        {{euro}}
+        
+        <br>
+    
+    <label>Libra =</label>
+        <input  placeholder="Digite Câmbio"  [(ngModel)]="libra"  type="number" >
+    
+       {{libra}} 
+    
+        <br><br>
+    <label >Real =</label>
+        <input  [(ngModel)]="real" type="number">
+        <br><br>
+   
+        <button  (click)="calcu()">Converter</button>
+   
+        
+</div>
